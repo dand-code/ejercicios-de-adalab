@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Organización Semanal</title>
+        <script src="https://kit.fontawesome.com/ff26b2c562.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+        <style>
+            * { 
+                margin: 0; 
+                padding: 0; 
+            }
+           body{
+                background:rgb(255, 222, 221);
+                width: 100%;
+                height: 100vh;
+                
+            }
+           .contenedor{
+               width:90%;
+               max-width: 1000px;
+               background-color:rgb(255, 222, 221);
+               margin: 10px auto;
+               -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+                box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+           }
+
+            h1{
+               font-family: 'Playfair Display', serif;
+               font-size: 4rem;
+                color: rgb(226, 0, 0);
+                text-align: center;
+                margin-bottom: 30px;
+                padding-top: 100px;
+                
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse; 
+            }
+        
+            table th{
+                color: rgb(226, 0, 0);
+                font-size: 25px; 
+                padding: 10px 5px;
+                
+            }
+
+            table td{
+                font-family: 'Raleway', sans-serif;
+                font-weight: 300;
+                font-size: 0.7rem;
+                border: 1px solid grey;
+                width: 25%;
+                padding: 5px;
+                
+            }
+            table td:hover{
+                background-color: rgb(226, 0, 0, 0.7);
+                color: white;
+            }
+            table tr td:first-child{
+                font-family: 'Raleway', sans-serif;
+                font-weight: 300;
+                color: black;
+                border: 0;
+                font-size: 1.25em;
+                padding: 15px 15px 5px 10px;
+                text-align: left;
+                width: 100px;                
+            }
+            table tr td:first-child:hover{
+                background: rgb(255, 222, 221);
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Organización Semanal</h1>
+        <div class="contenedor">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th><i class="fas fa-coffee" alt="Desayuno"></i></th>
+                        <th><i class="fas fa-utensils" alt="Almuerzo"></i></th>
+                        <th><i class="fas fa-apple-alt" alt="Merienda"></i></th>
+                        <th><i class="fas fa-utensils" alt="Cena"></i></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td> Tortita de tapioca con queso de untar, 2 lonchas de pavo, tomate natural.</td>
+                        <td>*Quinoa (50gr en seco o vasito 125gr cocida) con pimientos plancha, cebolla. Pechuga de pollo (90gr) plancha con tomate natural aliñado. Fruta.</td>
+                        <td>Manzana asada en el micro con miel y nueces</td>
+                        <td>*Primero: crema de calabaza, champiñón, puerro, patata.                             *Segundo: Tortilla (1 huevo) con lata de atún. Fruta.</td>   
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>*Leche semi (1 vaso) con copos de avena (40gr), fruta troceada o aparte.</td>
+                        <td>*Pasta integral (60gr) con rehogado de 100gr de pollo troceado, champiñones (setas), cebolla, dátiles en trocitos, salsa de soja.                                   Fruta o café.</td>
+                        <td>Uvas y frutos secos</td>
+                        <td>*Primero: Espárragos verdes a la plancha. (si no habitas plancha)   *Segundo: Lubina (150gr) con setas y boniato asado. </td>   
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>Tortita de tapioca con tomate, salmón ahumado, rodaja aguacate.</td>
+                        <td>*Ensalada de brotes verdes, huevo duro, lata de atún, aceitunas, cebolla, garbanzos de bote (3 cuch soperas). No patata.  Fruta</td>
+                        <td>Fruta, frutos secos, 3 dátiles</td>
+                        <td>*Arroz (40gr seco) con filete de pollo plancha (90gr) y berenjena plancha. Fruta</td>   
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>Leche con papilla nestlé y plátano.</td>
+                        <td>*Ensalada de tomate y aguacate con limón, sal, AOVE. Solomillitos de cerdo (100gr) con brocoli/coliflor rehogada con ajo.</td>
+                        <td>Naranja con canela</td>
+                        <td>*Revuelto de 2 huevos con espinacas y gambas. Merluza a la plancha con limón y eneldo. </td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</th>
+                        <td>*Leche semi (1 vaso) con copos de avena (40gr), fruta troceada o aparte.</td>
+                        <td>*Pasta integral (50gr seco) con salmón, ajo y calabacín. Cortar un lomito (100gr) de salmón en trozos y rehogar en sartén con ajo, cebolla y calabacin. Añadir a la pasta con aceite.</td>
+                        <td>Fruta, frutos secos, 3 dátiles</td>
+                        <td>*Primero: Judías verdes con patata cocida (80gr). *Segundo: Hamburguesa de carne picada (90gr) con queso parmesano. </td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>*DESAYUNO: Leche con copos de avena (40gr), nueces, plátano, pera, naranja.</td>
+                        <td>*Pimientos rellenos de caballa (80gr) con cebolla. Pollo asado (100gr)</td>
+                        <td>Manzana asada en el micro con miel y nueces</td>
+                        <td>*Primero: Crema de calabacin o verduras.                 *Segundo:  Tortitas de tapioca (2 pero con 60 gr de harina) tortilla francesa(1 huevo) con jamón serrano y tomate. Fruta.</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>Libre</td>
+                        <td>Libre</td>
+                        <td>Libre</td>
+                        <td>Libre</td>
+                    </tr>
+                </tbody>
+            </table> 
+    </body>
+</html>
