@@ -1,0 +1,100 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+/** HEADER **/
+header {
+  height: 0px;
+  border-bottom: 1px solid black;
+  color: #45d6c1;
+}
+  
+header .title {
+  padding-top: 15px;
+}
+
+/* CONTAINER SECTIONS */
+.container {
+    width: 80%;
+    padding: 50px 10%;
+}
+
+.container-title {
+    padding: 15px 0;
+}
+
+.container-subtitle {
+    padding: 10px 0;
+}
+
+.block-content-l {
+    width: calc(100% - 10px); 
+}
+
+.block-content-m {
+    padding: 15px 10px 15px 0px;
+    width: calc(50% - 10px);  
+}
+
+.block-content-s {
+    width: calc(25% - 10px);  
+}
+
+/* NAV LINKS */
+.list-links{
+    list-style: none;
+    display: flex;
+}
+
+.list-links .item-link {
+    padding: 10px 25px 10px 0px;
+}
+
+.list-links .item-link a {
+    color:white;
+    text-decoration: none;
+}
+
+/** SECTION MAIN **/
+main{
+    background-color: #F2E205;
+}
+
+/* SECTION OTHER LANGUAGES*/
+.languages {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SECTION MORE INFO*/
+#more-info {
+    background-color: #D6D7D6;
+    display: flex;
+}
+
+
+/** FOOTER **/
+
+footer {
+  background-color: black;
+  color: white;
+  display: block;
+  height: 200px;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.copyright {
+    padding-top: 15px;
+    
+}

@@ -3,66 +3,102 @@
     <head>
         <meta charset="utf-8" />
         <title>Lenguajes de Programacion</title>
-        <style>
-           main{
-               background-color: rgba(228, 145, 62, 0.935);
-           }
-           aside{
-               background-color:bisque;
-           }
-           section{
-            background-color:rgb(0, 149, 255); 
-           }
-           footer{
-            background-color: rgb(162, 117, 163); 
-           }
-        </style>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@300;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
     </head>
     <body>
-        <header> <h3>Adalab Promoción L</h1> </header>
-       
-       <main>
-            <h1>Lenguajes de Programación</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus leo quis tortor faucibus varius. Phasellus cursus diam a ex vehicula, ac ornare enim ultrices. Suspendisse cursus imperdiet dolor tincidunt tincidunt. Etiam maximus purus et cursus mollis. Sed convallis gravida ante sit amet mattis. Donec pellentesque tellus vitae odio volutpat, non semper lorem consectetur.</p>
-            <p>Phasellus interdum ipsum ut elit condimentum ornare. In porttitor turpis a nisi dapibus tincidunt. Nullam in suscipit risus, id suscipit leo. Aenean posuere ante pellentesque mauris blandit cursus ac sed ex. Curabitur eget ultricies purus, non vestibulum nisl. Phasellus a pulvinar ante. Integer maximus sapien eleifend libero convallis maximus.</p>
-            <p>Ut a metus in lectus molestie vestibulum. Aliquam et odio ac lectus volutpat elementum. Suspendisse at odio id orci scelerisque consectetur. Vivamus nulla ante, tempus sit amet lacus non, faucibus blandit nunc..</p>
+        <header class="container"> 
+            <h3 class="title">Adalab Promoción L</h3> 
+        </header>
+
+        <main id="main-content"> 
+            <div class="container">
+                <h1 id="title" class="container-title">Java Script completa 25 años</h1>
+                <h2 id="subtitle" class="container-subtitle">Un listado de la evolución de la lenguaje de programación</h2>   
+                <div class="block-content-l">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus leo quis tortor faucibus varius. Phasellus cursus diam a ex vehicula, ac ornare enim ultrices. Suspendisse cursus imperdiet dolor tincidunt tincidunt. Etiam maximus purus et cursus mollis. Sed convallis gravida ante sit amet mattis. Donec pellentesque tellus vitae odio volutpat, non semper lorem consectetur.</p>
+                    <p>Phasellus interdum ipsum ut elit condimentum ornare. In porttitor turpis a nisi dapibus tincidunt. Nullam in suscipit risus, id suscipit leo. Aenean posuere ante pellentesque mauris blandit cursus ac sed ex. Curabitur eget ultricies purus, non vestibulum nisl. Phasellus a pulvinar ante. Integer maximus sapien eleifend libero convallis maximus.</p>
+                    <p>Ut a metus in lectus molestie vestibulum. Aliquam et odio ac lectus volutpat elementum. Suspendisse at odio id orci scelerisque consectetur. Vivamus nulla ante, tempus sit amet lacus non, faucibus blandit nunc..</p>
+                </div>
+            </div>    
         </main>
-        <aside>
+    
+        <section id="other-languages" class="container">
+            <h2 class="container-title">Otros lenguajes</h2>
+            <!-- Alternative case with <ul>
             <div>
-                <h3>Técnicas de maquetación</h2>
-                <p>Etiam maximus purus et cursus mollis. Sed convallis gravida ante sit amet mattis.</p>
+                <ul class="languages">
+                    <li class="item block-content-s">
+                        <h3 class="container-subtitle">Python</h3>
+                        <p>Phasellus cursus diam a ex vehicula, ac ornare enim ultrices. Suspendisse cursus imperdiet dolor tincidunt tincidunt. Etiam maximus purus et cursus mollis. Sed convallis</p>
+                    </li>
+                    <li class="item block-content-s">
+                        <h3 class="container-subtitle">Go</h3>
+                        <p>Phasellus cursus diam a ex vehicula, ac ornare enim ultrices. Suspendisse cursus imperdiet dolor tincidunt tincidunt. Etiam maximus purus et cursus mollis. Sed convallis</p>
+                    </li>
+                    <li class="item block-content-s">
+                        <h3 class="container-subtitle">Java</h3>
+                        <p>Phasellus cursus diam a ex vehicula, ac ornare enim ultrices. Suspendisse cursus imperdiet dolor tincidunt tincidunt. Etiam maximus purus et cursus mollis. Sed convallis</p>
+                    </li>
+                    <li class="item block-content-s">
+                        <h3 class="container-subtitle">NodeJS</h3>
+                        <p>Phasellus cursus diam a ex vehicula, ac ornare enim ultrices. Suspendisse cursus imperdiet dolor tincidunt tincidunt. Etiam maximus purus et cursus mollis. Sed convallis</p>
+                    </li>
+                </ul>
+            </div>
+            -->
+            <div class="languages">
+                <div class="block-content-s">
+                    <h3 class="container-subtitle">Python</h3>
+                    <p>Phasellus cursus diam a ex vehicula, ac ornare enim ultrices. Suspendisse cursus imperdiet dolor tincidunt tincidunt. Etiam maximus purus et cursus mollis. Sed convallis</p>
+                </div>
+                <div class="block-content-s">
+                    <h3 class="container-subtitle">Go</h3>
+                    <p>Phasellus cursus diam a ex vehicula, ac ornare enim ultrices. Suspendisse cursus imperdiet dolor tincidunt tincidunt. Etiam maximus purus et cursus mollis. Sed convallis</p>
+                </div>
+                <div class="block-content-s">
+                    <h3 class="container-subtitle">Java</h3>
+                    <p>Phasellus cursus diam a ex vehicula, ac ornare enim ultrices. Suspendisse cursus imperdiet dolor tincidunt tincidunt. Etiam maximus purus et cursus mollis. Sed convallis</p>
+                </div>
+                <div class="block-content-s">
+                    <h3 class="container-subtitle">NodeJS</h3>
+                    <p>Phasellus cursus diam a ex vehicula, ac ornare enim ultrices. Suspendisse cursus imperdiet dolor tincidunt tincidunt. Etiam maximus purus et cursus mollis. Sed convallis</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="more-info" class="container">
+            <div class="block-content-m">
+                <h3 class="container-subtitle">Técnicas de maquetación</h2>
+                <p>Etiam maximus purus et cursus mollis. Sed convallis gravida ante sit amet mattis. t a metus in lectus molestie vestibulum. Aliquam et odio ac lectus volutpat elementum.</p>
                 </div>
 
-            <div>
-                <h3>Las últimas del mundo Tech</h2>
-                <p>Etiam maximus purus et cursus mollis. Sed convallis gravida ante sit amet mattis.</p>
-            </dive>
-        </aside>
-    
-        <section>
-            <article>
-                <h3>Java Script</h2>
-                    <p>Etiam maximus purus et cursus mollis. Sed convallis gravida ante sit amet mattis.</p>
-                    </div>
-            </article>
-            <article>
-                <h3>Payton</h2>
-                    <p>Etiam maximus purus et cursus mollis. Sed convallis gravida ante sit amet mattis.</p>
-                    </div>
-            </article>
-            <article>
-                <h3>Java</h2>
-                    <p>Etiam maximus purus et cursus mollis. Sed convallis gravida ante sit amet mattis.</p>
-                    </div>
-            </article>
-            <article>
-                <h3>Go</h2>
-                    <p>Etiam maximus purus et cursus mollis. Sed convallis gravida ante sit amet mattis.</p>
-                    </div>
-            </article>
+            <div class="block-content-m">
+                <h3 class="container-subtitle">Las últimas del mundo Tech</h2>
+                <p>Etiam maximus purus et cursus mollis. Sed convallis gravida ante sit amet mattis. t a metus in lectus molestie vestibulum. Aliquam et odio ac lectus volutpat elementum.</p>
+                </div>
         </section>
+
         <footer>
-            <p>Copyright &copy; 2020</p>
+            <div class="container">
+                <div class="block-content-m">
+                    <h3 class="section-subtitle">Contentido</h2>
+                    <ul class="list-links"> 
+                        <li class="item-link">
+                            <a href="#main-content">Main Content</a>
+                        </li>
+                        <li class="item-link">
+                            <a href="#other-languages">Other Languages</a>
+                        </li>
+                        <li class="item-link">
+                            <a href="#more-info">More info</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="copyright">Copyright &copy; 2020</p>
+            </div>
         </footer>
     </body>
 </html>
