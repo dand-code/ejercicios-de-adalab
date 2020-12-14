@@ -1,0 +1,32 @@
+/*
+TAREA: 
+
+Añadir hoja de estilos al HTML donde:
+
+.01 >> El color de fondo de la página tiene que ser #f3f4f5
+.02 >> El título tiene que tener asignado un tipo de letra Arial a 24px de tamaño y color de texto black.
+.03 >> Para el texto de los párrafos, tendremos que usar la fuente Georgia a 18px de tamaño y color de texto #757575.
+*/
+
+
+body {
+  background-color: #f3f4f5; /* 01 */
+}
+
+h1 { /* 02 */
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+
+p, li { /* 03 */
+  font-family: Georgia, sans-serif;
+  font-size: 18px;
+  color: #757575;
+}
+span {
+  font-weight: bold;
+}
+
+
+
