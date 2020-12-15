@@ -2,7 +2,7 @@
 
 MODULO 1 - LECCION 1- EJERCICIO 01
 Receita Gazpacho:
-https://serene-nightingale-8784e3.netlify.app/
+https://eloquent-euler-a2d580.netlify.app/
 
 MODULO 1 - LECCION 2- EJERCICIO 01
 Tabla de organización semanal:
