@@ -1,0 +1,59 @@
+/* Falta o estilo da classe <contenedor>, no body,  */
+  .style-text {
+    font-size: 20px;
+  }
+  span {
+    font-weight: bolder;
+  }
+
+  /* Solución del ejercicio 01 */
+  
+  .div {
+    background-color: deepskyblue;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  img{
+    width: 100px;
+    height: 100px;
+  }
+
+
+  .div2 {
+    background-color: deepskyblue;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  img{
+    
+    width: 100px;
+    height: 100px;
+  }
+
+  /* CSS DEL EJERCICIO 6 */
+  .container {
+    border: 1px solid deeppink;
+  }
+  .col {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+  }
+  .container--1 {
+    height: 100px;
+    width: 200px;
+    overflow: hidden;
+    /* Añadir propiedad overflow */
+  }
+  .container--2 {
+    height: 200px;
+    overflow: hidden;
+    /* Añadir propiedad overflow */
+  }
