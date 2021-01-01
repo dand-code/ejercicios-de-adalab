@@ -1,0 +1,29 @@
+main{
+    margin-bottom: 120px;
+}
+
+.cookie{
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-left: 10px;
+}
+
+.cookie-icon{
+    position: absolute;
+    left: 93%;
+    top: 7%;
+    padding: 10px;
+    color: blue;
+}
+
+.cookie-icon:hover{
+    color: red;
+}
+
+.hidden{
+    display: none;
+}

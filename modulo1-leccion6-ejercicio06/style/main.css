@@ -1,0 +1,13 @@
+
+.container{
+    margin: 0 20px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 32px;
+}
+.texto{
+    font-size: 18px;
+    line-height: 24px;
+}
