@@ -1,0 +1,28 @@
+@import "reset.css";
+
+
+
+.container{
+  height: 100vh;
+  background-color: grey;
+  grid-auto-rows:auto;
+}
+
+.col-sm{
+  height: 20vh;
+  border: 1px solid blue;
+}
+
+
+
+
+
+
+
+/*
+<div class="col-sm">
+  One of three columns
+</div>
+<div class="col-sm">
+  One of three columns
+  */

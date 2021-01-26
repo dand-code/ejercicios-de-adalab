@@ -1,0 +1,13 @@
+@import "reset.css";
+
+.container{
+  max-width: 1140px;
+}
+.col{
+  background-color: green;
+  margin: 10px auto;
+
+}
+.row{
+  gap: 5px;
+}

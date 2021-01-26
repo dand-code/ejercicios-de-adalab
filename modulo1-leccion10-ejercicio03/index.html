@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css" />
+  </head>
+  <body>
+    <h1>Creat an account</h1>
+    <p>It's free and always will be.</p>
+
+    <form action="" method="post">
+      <input type="text" name="firstName" placeholder="First Name" />
+      <input type="text" name="lasttName" placeholder="Surname" />
+      <input type="email" name="contact" placeholder="Email or mobile number" />
+      <!-- How can I define a type to two options: email ande phone? -->
+      <input
+        type="email"
+        name="contactConfirm"
+        placeholder="Re-enter email or mobile number"
+      />
+      <input type="password" name="password" placeholder="New password" />
+
+      
+        <label for="birthday">Birthdy</label>
+        <div class= "display__flex">
+        <input type="date" id="birthday" name="birthday" />
+        <p>Why do I need to provide my date of birth?</p>
+      </div>
+
+    
+        <div class="display__flex">
+        <label class="label_female" for="option1">
+          <input class="female" id="option1" type="radio" value="female" name="sexOption" />
+          Female
+        </label>
+      </div>
+      </div>
+      <div class="display__flex"> 
+        <label class="label_female" for="option2">
+          <div class="display__flex">
+          <input class="female"  id="option2" type="radio" value="male" name="sexOption" />
+          Male
+        </div>
+        </label>
+      </div>
+
+      <label for="height">Altura</label>
+      <input
+        type="number"
+        name="height"
+        placeholder="Height (cm)"
+        min="50"
+        max="250"
+        value="150"
+      />
+
+      <div class="label_comentario">
+          <label class="" for="comments">Comentário</label>
+          <textarea class="comentario"
+              name="comments"
+              id="comments"
+              cols="30"
+              rows="10"
+              placeholder="Escribe aqui su comentario"></textarea>
+         
+      </div>
+
+      <p>Leí y estoy de acuerdo con los términos de uso.</p>
+      <label class="agree" for="agree">I agree</label>
+      <input class="female" type="radio" value="I agree" name="agree" />
+
+      <input type="submit" value="Create an account" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+@import "reset.css";
+
+body{
+  margin:0;
+  height: 100vh;
+}
+
+.item{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.header{
+  background: #ffc0cb;
+  height: 20vh;
+}
+
+.menu{
+  background-color: #4d0583;
+  height: 60vh;
+}
+
+.content{
+  background-color: #cd5d5c;
+}
+
+.footer{
+  background-color: #acd8e6;
+  height: 20vh;
+}
+
+
+/*
+.container-fluid{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.item{
+  background: deeppink;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.item1{
+  grid-column: span 12;
+  height: 20vh;
+  background-color: #ffc0cb;
+}
+.item2{
+  grid-column: span 6;
+  height: 60vh;
+  background-color: #4d0583;
+}
+.item3{
+  grid-column: span 6;
+  background-color: #cd5d5c;
+}
+.item4{
+  grid-column: span 12;
+  height: 20vh;
+  background-color: #acd8e6;
+}
+*/

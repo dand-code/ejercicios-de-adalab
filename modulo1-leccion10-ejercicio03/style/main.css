@@ -1,0 +1,42 @@
+@import "reset.css";
+
+
+*{
+    border: 2px solid blue;
+    margin-bottom: 20px;
+}
+
+/*
+input{
+    display: block;
+    margin: 5px 0 10px 0;
+    width: 200px;
+}
+
+.display__flex{
+    display: flex;
+} 
+
+.female {
+    display: inline-block;
+    border: 2px solid green;
+    width: 50px;
+    
+
+}
+.label_female{
+    border: 2px solid red;
+}
+
+/* .label_comentario {
+vertical-align: top;
+
+} */
+
+.comentario{
+    display: block;
+}
+/* 
+.agree {
+    display: inline;
+} */
