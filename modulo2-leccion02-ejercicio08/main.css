@@ -1,0 +1,11 @@
+.list_style{
+    list-style: none;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.list_elements{
+    margin-bottom: 20px;
+}
