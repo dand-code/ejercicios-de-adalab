@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 300px;
+  height: 100vh;
+  background-color: pink;
+}
+.isHating{
+  background-color: red;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  width: 250px;
+}
+
+.image {
+  margin: 0 auto;
+  width: 300px;
+  height: 250px;
+}

@@ -1,11 +1,8 @@
-#react-root {
+.page{
   height: 100vh;
-  width: 100vw;
+  background-color: pink;
 }
-
-.flex-center {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
+.button {
+ width: 400px;
+ height: 50px;
 }
